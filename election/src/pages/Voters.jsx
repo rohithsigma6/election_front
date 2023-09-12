@@ -18,7 +18,7 @@ const Voters = () => {
     gender: ''
   });
 
-  // Add filter criteria states
+  
   const [filterName, setFilterName] = useState('');
   const [filterConstituency, setFilterConstituency] = useState('');
 
@@ -27,9 +27,19 @@ const Voters = () => {
   }, []);
 
   useEffect(() => {
+    const filterVoters = () => {
+      const filtered = allVoters.filter((voter) => {
+        const nameMatch = voter.firstName.toLowerCase().includes(filterName.toLowerCase()) ||
+          voter.lastName.toLowerCase().includes(filterName.toLowerCase());
+        const constituencyMatch = filterConstituency === '' || voter.constituency === filterConstituency;
+        return nameMatch && constituencyMatch;
+      });
+      setFilteredVoters(filtered);
+    };
+    
     filterVoters();
   }, [filterName, filterConstituency, allVoters]);
-
+  
   const fetchVoters = () => {
     axios
       .post(`${API_DEV_URL}/get_all_users`, {}, {
@@ -48,15 +58,6 @@ const Voters = () => {
       });
   };
 
-  const filterVoters = () => {
-    const filtered = allVoters.filter((voter) => {
-      const nameMatch = voter.firstName.toLowerCase().includes(filterName.toLowerCase()) ||
-        voter.lastName.toLowerCase().includes(filterName.toLowerCase());
-      const constituencyMatch = filterConstituency === '' || voter.constituency === filterConstituency;
-      return nameMatch && constituencyMatch;
-    });
-    setFilteredVoters(filtered);
-  };
 
   const handleEditClick = (voter) => {
     setSelectedVoter(voter);
@@ -94,6 +95,7 @@ const Voters = () => {
           authorization: localStorage.getItem("voterToken")
         }
       });
+      console.log(response)
       setIsEditing(false);
       setSelectedVoter(null);
       console.log("Updated Voter Details:", editedVoter);
