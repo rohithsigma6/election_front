@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/election_front/static/css/main.3c260e9f.css",
+    "main.js": "/election_front/static/js/main.2a7c7cf6.js",
+    "static/js/787.b48c400d.chunk.js": "/election_front/static/js/787.b48c400d.chunk.js",
+    "index.html": "/election_front/index.html",
+    "main.3c260e9f.css.map": "/election_front/static/css/main.3c260e9f.css.map",
+    "main.2a7c7cf6.js.map": "/election_front/static/js/main.2a7c7cf6.js.map",
+    "787.b48c400d.chunk.js.map": "/election_front/static/js/787.b48c400d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c260e9f.css",
+    "static/js/main.2a7c7cf6.js"
+  ]
+}
