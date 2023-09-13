@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Welcome to the Election App! This application is designed to help users access information related to elections, candidates, and voting in an easy and efficient manner. This README file provides essential information for developers, users, and anyone interested in understanding and using the Election App.
+Welcome to the Election App! This application is designed to help users access information related to elections, candidates, and voting easily and efficiently. This README file provides essential information for developers, users, and anyone interested in understanding and using the Election App.
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ Before you begin using the Election App, ensure that you have the following prer
 
 ### Installation
 
-No installation is necessary to use the Election App. It is a web-based application accessible through your web browser. Simply visit our website [www.electionapp.com](https://www.electionapp.com) to get started.
+No installation is necessary to use the Election App. It is a web-based application accessible through your web browser. Simply visit our website (https://electionapp.netlify.app/) to get started.
 
 ## Usage
 
