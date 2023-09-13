@@ -1,5 +1,4 @@
-# Election App README
-
+# Election App 
 
 ## Introduction
 
