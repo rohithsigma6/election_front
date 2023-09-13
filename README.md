@@ -1,5 +1,6 @@
 # Election App README
 
+
 ## Introduction
 
 Welcome to the Election App! This application is designed to help users access information related to elections, candidates, and voting in an easy and efficient manner. This README file provides essential information for developers, users, and anyone interested in understanding and using the Election App.
@@ -72,7 +73,7 @@ No installation is necessary to use the Election App. It is a web-based applicat
 
 We welcome contributions from the community to make the Election App even better. If you are interested in contributing, please follow these steps:
 
-1. Fork the repository .
+1. Fork the repository.
 
 2. Make your desired changes or enhancements.
 
@@ -84,6 +85,6 @@ We welcome contributions from the community to make the Election App even better
 
 The Election App is licensed under the [MIT License](LICENSE.md). Feel free to use, modify, and distribute the app, but please adhere to the terms specified in the license.
 
-Thank you for using the Election App, and we hope it helps you engage in the democratic process by providing easy access to essential election information. If you have any questions or encounter issues, please contact our support team at support@electionapp.com.
+Thank you for using the Election App, and we hope it helps you engage in the democratic process by providing easy access to essential election information. If you have any questions or encounter issues, please get in touch with our team at rohithsigma6@gmail.com
 
 Happy voting! 🗳️
