@@ -13,6 +13,18 @@ Welcome to the Election App! This application is designed to help users access i
 3. [Usage](#usage)
 4. [Contributing](#contributing)
 5. [License](#license)
+  
+
+
+## Screenshots
+
+  ![Screenshot (7)](https://github.com/rohithsigma6/election_front/assets/139437364/065ac287-3d01-4bea-8184-850a58a3e931)
+
+![Screenshot (8)](https://github.com/rohithsigma6/election_front/assets/139437364/5f0ba984-53c6-449b-8451-e20d7dfbd5a5)
+
+![Screenshot (6)](https://github.com/rohithsigma6/election_front/assets/139437364/94012014-e3a6-4ca9-8bd6-2368a7ff558b)
+
+![Screenshot (9)](https://github.com/rohithsigma6/election_front/assets/139437364/30557f4d-08a2-4a2b-b54c-206063b26793)
 
 ## Features
 
